@@ -44,3 +44,6 @@ Java (using okhttp)
     System.out.printf("Patient Id: %s%n", patient.getId());
     System.out.printf("Patient Name: %s %s%n", patient.getName().get(0).getGiven().get(0), patient.getName().get(0).getFamily());
     System.out.printf("Patient DoB: %s%n", patient.getBirthDate());
+    
+    
+Buildable/runnable versions of the above are at https://github.com/Articulus-Group/kotlin-fhir-model-client-examples
